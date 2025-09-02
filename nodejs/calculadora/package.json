@@ -1,0 +1,21 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "meu primeiro app com node js",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "modulos"
+  ],
+  "author": "Karen Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http": "^0.0.1-security"
+  }
+}
