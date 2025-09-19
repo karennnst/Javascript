@@ -1,5 +1,6 @@
 // Importa o módulo 'http' do Node.js
-let http = require('http');
+//let http = require('http');
+import http from 'http'
 
 // Cria um servidor HTTP que responde com "Hello World!" para todas as requisições
 // O método createServer recebe uma função de callback com os objetos de requisição (req) e resposta (res)

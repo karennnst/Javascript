@@ -1,6 +1,7 @@
 // Importa o módulo 'fs' (file system) do Node.js
-const fs = require('fs');
+//const fs = require('fs');
 
+import fs from 'fs'
 //essa ai é uma função callback, faz um retorno, escrita com uma arrow function. lê o arquivo de forma assíncrona
 fs.readFile('example.txt', 'utf8', (err, data) => {
     // caso ocorra um erro na leitura do arquivo, ele exibe o erro no console
