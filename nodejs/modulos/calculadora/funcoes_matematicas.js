@@ -16,7 +16,3 @@ export function divisao(a,b){
     }
     return a / b;
 }
-
-export function idade(ano, anonasc){
-    return ano - anonasc;
-}
