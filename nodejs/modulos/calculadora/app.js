@@ -6,8 +6,8 @@
 //console.log('Multiplicação:', funcoesMatematicas.multiplicar(7, 6));
 //console.log('Divisão:', funcoesMatematicas.dividir(20, 5));
 
-import{soma,subtracao,multiplicacao,divisao} from './funcoes_matematicas.js';
-import * as calculaidade from './calculaidade.js'
+import{soma,subtracao,multiplicacao,divisao} from './modulos/funcoes_matematicas.js';
+import * as calculaidade from './modulos/calculaidade.js'
 
 console.log('Soma:' + soma(5, 3));
 console.log('Subtração:' + subtracao(10, 4));

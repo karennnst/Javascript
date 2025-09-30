@@ -1,6 +1,17 @@
-// esse modulo já vem instalado com o Node.js
-// o os (operating system. sistema operacional) fornece informações sobre o sistema operacional
-//const os = require('os');
+// Importa o módulo 'os' do Node.js
+const os = require('os');
 
-import{os} from 'os';
-console.log(os.platform());
+// Exibe informações sobre o sistema operacional    
+console.log('Sistema operacional:', os.type());
+
+// Arquitetura do sistema
+ console.log('Arquitetura:', os.arch());
+
+// Quantidade de CPUs
+ console.log('CPUs:', os.cpus().length);
+
+// Memória total em bytes
+ console.log('Memória total (bytes):', os.totalmem());
+
+// Memória livre em bytes
+ console.log('Memória livre (bytes):', os.freemem());
