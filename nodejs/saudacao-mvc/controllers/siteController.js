@@ -18,6 +18,4 @@ module.exports = {
     const mensagem = saudacaoModel.gerarMensagemPersonalizada(nome, idade, animal);
     res.send(`<h1>${mensagem}</h1>`);
   }
-
-
 };

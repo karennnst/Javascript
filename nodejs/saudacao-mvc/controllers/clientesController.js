@@ -1,0 +1,15 @@
+module.exports = {
+  clientes: (req, res) => {
+    res.sendFile('clientes.html', { root: './views' });
+  },
+
+    login: (req, res) => {
+    res.sendFile('login.html', { root: './views' });
+  },
+
+    logincorreto: (req, res) => {
+      const { email} = req.body;
+      const mensagem = loginModel.gerarMensagemLogin(email);
+      res.send(`<h1>${mensagem}</h1>`);
+    }
+};
