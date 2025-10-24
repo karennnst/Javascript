@@ -1,4 +1,5 @@
-const loginModel = require('../models/loginModel.js');
+const path = require('path');
+const loginModel = require('../models/loginModel');
 
 module.exports = {
   clientes: (req, res) => {

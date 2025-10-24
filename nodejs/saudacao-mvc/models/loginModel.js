@@ -1,3 +1,5 @@
+//corretoo
+
 module.exports = {
   gerarMensagemLogin: (email, senha) => {
     if (email === "pixnono3@gmail.com" && senha === "1234") {
