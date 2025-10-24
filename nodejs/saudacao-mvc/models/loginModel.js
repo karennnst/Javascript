@@ -1,5 +1,9 @@
 module.exports = {
-  gerarMensagemaLogin: (email) => {
-    return `Olá, seu email é ${email}. Sua senha é segredo.`;
+  gerarMensagemLogin: (email, senha) => {
+    if (email === "pixnono3@gmail.com" && senha === "1234") {
+      return "Login completado com sucesso";
+    } else {
+      return "Login incorreto";
+    }
   }
 };

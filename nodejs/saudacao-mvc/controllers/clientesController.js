@@ -1,3 +1,5 @@
+const loginModel = require('../models/loginModel.js');
+
 module.exports = {
   clientes: (req, res) => {
     res.sendFile('clientes.html', { root: './views' });
@@ -8,8 +10,8 @@ module.exports = {
   },
 
     logincorreto: (req, res) => {
-      const { email} = req.body;
-      const mensagem = loginModel.gerarMensagemLogin(email);
-      res.send(`<h1>${mensagem}</h1>`);
-    }
+    const { email, senha } = req.body;
+    const mensagem = loginModel.gerarMensagemLogin(email, senha);
+    res.send(`<h1>${mensagem}</h1>`);
+  }
 };
